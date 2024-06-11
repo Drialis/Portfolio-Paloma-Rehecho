@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.2.13"
+  },
+  "dependencies": {
+    "react-bootstrap": "^2.10.2"
   }
 }
