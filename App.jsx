@@ -1,7 +1,8 @@
 import AppRoutes from './routes/AppRoutes'
-import './App.css'
-import Navigation from './components/Navigation/Navigation'
+import Navigation from './Components/Navigation/Navigation'
 import Footer from './Components/Footer/Footer'
+import React from 'react'
+import './App.css'
 
 const App = () => {
 

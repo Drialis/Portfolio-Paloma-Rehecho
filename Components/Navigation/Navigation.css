@@ -1,0 +1,61 @@
+.Navbar {
+    background-color: #1F2020;
+    color: white;
+    margin: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand {
+    --bs-navbar-brand-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.nav-link {
+    --bs-nav-link-color: white !important;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20;
+}
+
+.dropdown-menu.show {
+    background-color: white;
+}
+
+#basic-nav-dropdown-toogle.nav-link:hover {
+    color: white;
+}
+
+.navbar-toggle {
+    color: #FFE63F !important;
+    --bs-border-width: #FFE63F !important;
+    border-color: #FFE63F !important;
+}
+
+.navbar-toggle:hover {
+    color: #FFE63F !important;
+}
+
+.Navicon {
+    --bs-navbar-color: #FFE63F !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://res.cloudinary.com/du8mlfcf9/image/upload/v1717430345/hamburguesa_h9pkyd.png') !important;
+    --bs-border-width: #FFE63F !important;
+}
+
+.fixed-right {
+    display: flex !important;
+    align-items: center !important;
+    gap: 5rem;
+    margin-left: auto;
+}
+
+.ContainerNavbar {
+    display: flex;
+}
