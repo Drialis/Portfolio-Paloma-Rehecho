@@ -8,13 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
     return (
-        <div className="App">
+        <Container fluid className='App'>
             <Navigation />
-            <Container fluid className="main-container">
-                <AppRoutes />
-            </Container>
+            <AppRoutes />
             <Footer />
-        </div>
+        </Container>
     );
 };
 

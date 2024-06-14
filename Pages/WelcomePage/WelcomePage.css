@@ -9,9 +9,13 @@
     background-color: #1F2020;
     color: white;
     border-color: #1F2020;
-    padding: 100px;
+    padding: 70px;
 }
 
 .card {
     --bs-border-width: 0px;
+}
+
+.GitHubLink {
+    text-decoration: none;
 }

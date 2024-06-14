@@ -1,18 +1,14 @@
 .Navbar {
     background-color: #1F2020;
     color: white;
-    padding-left: 20px !important;
-    /* Añade padding izquierdo */
-    padding-right: 20px !important;
-    /* Añade padding derecho */
 }
 
 .navbar-brand {
     color: white !important;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    margin-right: 20px;
-    /* Añade margen a la derecha para separar del primer link */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-link {
@@ -20,9 +16,8 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    /* Ajusta el peso de la fuente */
-    margin-right: 20px;
-    /* Espacio entre los links */
+    margin-right: 10px;
+
 }
 
 .nav-link:hover,
@@ -34,16 +29,14 @@
 .fixed-right {
     display: flex !important;
     align-items: center !important;
+    justify-content: space-between;
     gap: 20px;
-    /* Espacio entre los elementos flexibles */
     margin-left: auto;
 }
 
 .ContainerNavbar {
     display: flex;
     justify-content: space-between;
-    /* Espacio entre el brand y el toggle */
     align-items: center;
-    /* Alinea verticalmente */
     width: 100%;
 }

@@ -6,8 +6,8 @@ import './WelcomePage.css'
 const WelcomePage = () => {
     return (
         <Container className='WelcomePage'>
-            <Row >
-                <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 6 }} style={{ padding: 0 }}>
+            <Row>
+                <Col xs={12} md={6} lg={6} style={{ padding: 0 }}>
                     <Card>
                         <Card.Img
                             className="Paloma Rehecho Antolín"
@@ -16,15 +16,17 @@ const WelcomePage = () => {
                     </Card>
                 </Col>
 
-                <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 6 }} style={{ padding: 0 }}>
+                <Col xs={12} md={6} lg={6} style={{ padding: 0 }}>
                     <Card>
                         <Card.Body style={{ height: '300px' }}>
-                            <Card.Text>Web Developer</Card.Text>
+                            <Card.Title>Full Stack Developer</Card.Title>
+                            <br />
                             <Card.Text className="fw-lighter">
                                 This full stack developer is a dreamer who gets lost in scientific and fantasy books. She invests her time learning new technologies and practicing her favorite sport, taekwondo.
                             </Card.Text>
+                            <br />
                             <Link className="GitHubLink fw-bold" to="/github">
-                                GitHub Link
+                                🔗 GitHub Link
                             </Link>
                         </Card.Body>
                     </Card>
