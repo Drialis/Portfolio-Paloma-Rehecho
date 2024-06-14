@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import WelcomePage from "../Pages/WelcomePage/WelcomePage"
 import AboutMe from "../Pages/AboutMe/AboutMe"
 import React from 'react'
+import './AppRoutes.css'
 
 const AppRoutes = () => {
     return (

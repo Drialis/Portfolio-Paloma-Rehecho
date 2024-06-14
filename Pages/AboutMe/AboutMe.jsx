@@ -1,4 +1,3 @@
-
 import { Card, Container, Row, Col } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import React from 'react'
@@ -11,13 +10,6 @@ const AboutMe = () => {
             className="AboutMe mb-5">
 
             <Row className="mb-5">
-
-                <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }}>
-                    <Card>
-                        <Card.Img className="Paloma Rehecho Antolín" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1717432580/Paloma_mylwne.jpg"></Card.Img>
-                    </Card>
-                </Col>
-
                 <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }}>
                     <Card className="m-4 border-0 shadow-lg">
                         <Link to="https://github.com/Drialis">
@@ -32,10 +24,14 @@ const AboutMe = () => {
                     </Card>
                 </Col>
 
+                <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }}>
+                    <Card>
+                        <Card.Img className="Paloma Rehecho Antolín" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1717432580/Paloma_mylwne.jpg"></Card.Img>
+                    </Card>
+                </Col>
+
             </Row>
         </Container>
-
-
     )
 }
 

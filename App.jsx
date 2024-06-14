@@ -1,22 +1,21 @@
-import AppRoutes from './routes/AppRoutes'
-import Navigation from './Components/Navigation/Navigation'
-import Footer from './Components/Footer/Footer'
-import React from 'react'
-import './App.css'
+import AppRoutes from './routes/AppRoutes';
+import Navigation from './Components/Navigation/Navigation';
+import Footer from './Components/Footer/Footer';
+import React from 'react';
+import './App.css';
+import { Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
-
     return (
-        <div className='App'>
-
+        <div className="App">
             <Navigation />
-
-            <AppRoutes />
-
+            <Container fluid className="main-container">
+                <AppRoutes />
+            </Container>
             <Footer />
-
         </div>
-    )
-}
+    );
+};
 
-export default App
+export default App;

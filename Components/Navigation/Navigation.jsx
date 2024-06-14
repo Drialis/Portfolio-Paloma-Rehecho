@@ -7,7 +7,7 @@ const Navigation = () => {
     const [expanded, setExpanded] = useState(false);
 
     return (
-        <Navbar expand="lg" className="Navbar m-auto align-items-center" expanded={expanded}>
+        <Navbar expand="lg" className="Navbar align-items-center" expanded={expanded}>
             <Container className='ContainerNavbar'>
                 <Navbar.Brand href="/" className="BrandTitle">Paloma Rehecho</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="Navicon" onClick={() => setExpanded(!expanded)} />
