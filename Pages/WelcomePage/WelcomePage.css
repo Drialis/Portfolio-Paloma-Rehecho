@@ -71,3 +71,10 @@
 
     border-radius: 0;
 }
+
+.WelcomePage .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 50px !important;
+    width: 100vw !important;
+}

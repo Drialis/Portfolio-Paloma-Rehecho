@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Navbar, Nav, Container, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Navigation.css'
 
@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <Navbar expand="lg" className="Navbar align-items-center" expanded={expanded}>
             <Container className='ContainerNavbar'>
-                <Navbar.Brand href="/" className="BrandTitle">Paloma Rehecho</Navbar.Brand>
+                <Navbar.Brand href="/" className="BrandTitle"><Image src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718809637/Presentaci%C3%B3n_diapositiva_Marca_creativa_Doodle_Blanco_y_marr%C3%B3n_1_ra697s.png"></Image></Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="basic-navbar-nav"
                     className="Navicon"

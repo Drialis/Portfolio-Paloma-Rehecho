@@ -1,6 +1,6 @@
 .AppRoutes .container-fluid {
-    padding: 0 !important;
-    margin: 0 !important;
-    margin-bottom: 50px !important;
-    width: 100vw !important;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    width: 100vw;
 }

@@ -12,30 +12,59 @@
     color: #023047 !important;
 }
 
-.ProjectsPage .card .card-body {
+.ProjectsRow .card .card-body {
     background-color: #1F2020;
-    color: white;
+    color: FFFBEB;
     border-color: #1F2020;
 
 }
 
-.ProjectsPage .card .card-title {
+.ProjectsRow .card .card-title {
     padding: 20px;
+    border-bottom: 3px solid #00ffd5;
 }
 
-.ProjectsPage .card .card-text {
+.ProjectsRow .card .card-text {
     padding: 20px;
+    padding-left: 0px;
 }
 
-.ProjectsPage .card {
+.ProjectsPage {
+    padding-right: 50px !important;
+    padding-left: 20px !important;
+}
+
+.ProjectsRow .card {
     background-color: #1F2020;
-    color: white;
+    color: #FFFBEB;
     border-color: #1F2020;
     margin-bottom: 50px;
 }
 
-.ProjectsPage .card-img-top {
+.ProjectsRow .card-img-top {
     height: 300px;
-    border: 3px solid #00ffd5;
+    border: 5px solid #FFFBEB;
     object-fit: cover;
+}
+
+.ProjectsPage .container-fluid {
+    padding-right: 50px !important;
+}
+
+.ProjectsPage h1 {
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFBEB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+.titlesub {
+    border-top: 5px solid #00ffd5;
+    height: 5px;
+    opacity: 1;
+    margin-left: 500px;
+    margin-right: 500px;
 }
