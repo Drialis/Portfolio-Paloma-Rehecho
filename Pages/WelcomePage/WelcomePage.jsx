@@ -25,7 +25,7 @@ const WelcomePage = () => {
                                 This full stack developer is a dreamer who gets lost in scientific and fantasy books. She invests her time learning new technologies and practicing her favorite sport, taekwondo.
                             </Card.Text>
                             <br />
-                            <Link className="GitHubLink fw-bold" to="/github">
+                            <Link className="GitHubLink fw-bold" to="https://github.com/Drialis">
                                 🔗 GitHub Link
                             </Link>
                         </Card.Body>

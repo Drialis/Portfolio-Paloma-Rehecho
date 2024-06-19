@@ -1,0 +1,35 @@
+.projectButton {
+    background-color: #023047 !important;
+    border: #023047 !important;
+    color: #FFFBEB !important;
+    margin-right: 20px;
+}
+
+.projectButton:hover {
+    background-color: #00ffd5 !important;
+    border: #00ffd5 !important;
+    color: #023047 !important;
+}
+
+.ProjectsPage .card .card-body {
+    background-color: #1F2020;
+    color: white;
+    border-color: #1F2020;
+
+}
+
+.ProjectsPage .card {
+    background-color: #1F2020;
+    color: white;
+    border-color: #1F2020;
+    margin-bottom: 50px;
+}
+
+.ProjectsPage .card-img {
+    height: min-content;
+}
+
+.card-img-top {
+    height: 300px;
+    border: 3px solid #00ffd5;
+}

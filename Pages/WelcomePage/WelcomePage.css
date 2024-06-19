@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-.card .card-body {
+.WelcomePage .card .card-body {
     background-color: #1F2020;
     color: white;
     border-color: #1F2020;
@@ -18,4 +18,9 @@
 
 .GitHubLink {
     text-decoration: none;
+    color: #00ffd5;
+}
+
+.card img {
+    border-radius: 0 !important;
 }
