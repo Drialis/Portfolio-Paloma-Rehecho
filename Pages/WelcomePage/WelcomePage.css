@@ -9,18 +9,65 @@
     background-color: #1F2020;
     color: white;
     border-color: #1F2020;
-    padding: 70px;
+
 }
 
-.card {
+.WelcomePage .card .card-title {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.WelcomePage .card .card-text {
+    padding-top: 30;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+
+.WelcomePage .card {
     --bs-border-width: 0px;
+}
+
+.WelcomeText {
+    margin-bottom: 300px;
+
 }
 
 .GitHubLink {
     text-decoration: none;
     color: #00ffd5;
+    margin-left: 50px;
 }
 
-.card img {
+.WelcomePage .card-img-top {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.WelcomePage .card img {
     border-radius: 0 !important;
+}
+
+.WelcomePage .GitHubLink {
+    background-color: #FFFBEB !important;
+    border: #FFFBEB !important;
+    color: #1F2020 !important;
+    font-weight: 500;
+    padding: 20px;
+    padding-right: 30px;
+    margin-right: 20px;
+    border-radius: 0;
+}
+
+.WelcomePage .AboutMe {
+    background-color: #1F2020 !important;
+    color: #FFFBEB !important;
+    font-weight: 500;
+    padding: 20px;
+    padding-right: 30px;
+    margin-right: 20px;
+
+    border-radius: 0;
 }
