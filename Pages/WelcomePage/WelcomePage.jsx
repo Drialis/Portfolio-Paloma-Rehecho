@@ -1,14 +1,14 @@
-import React from 'react'
-import { Card, Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import './WelcomePage.css'
+import React from 'react';
+import { Card, Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './WelcomePage.css';
 
 const WelcomePage = () => {
     return (
-        <Container className='WelcomePage'>
+        <Container fluid className='WelcomePage g-0'>
             <Row>
                 <Col xs={12} md={6} lg={6} style={{ padding: 0 }}>
-                    <Card>
+                    <Card className='br-0'>
                         <Card.Img
                             className="Paloma Rehecho Antolín"
                             src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1717432580/Paloma_mylwne.jpg"
@@ -16,9 +16,9 @@ const WelcomePage = () => {
                     </Card>
                 </Col>
 
-                <Col xs={12} md={6} lg={6} style={{ padding: 0 }}>
+                <Col xs={12} md={6} lg={6}>
                     <Card>
-                        <Card.Body style={{ height: '300px' }}>
+                        <Card.Body style={{ height: '400px' }}>
                             <Card.Title>Full Stack Developer</Card.Title>
                             <br />
                             <Card.Text className="fw-lighter">
@@ -32,9 +32,8 @@ const WelcomePage = () => {
                     </Card>
                 </Col>
             </Row>
-
         </Container>
-    )
-}
+    );
+};
 
 export default WelcomePage;
