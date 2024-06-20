@@ -1,0 +1,49 @@
+.imgcontact img {
+    height: 20px;
+    object-fit: scale-down;
+}
+
+.ContactPage {
+    background-color: #1F2020;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ContactPage .card .card-body {
+    background-color: #1F2020;
+    color: white;
+    border-color: #1F2020;
+
+}
+
+.ContactPage .card .card-title {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.ContactPage .card .card-text {
+    padding-top: 30;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+
+.ContactPage .card {
+    --bs-border-width: 0px;
+}
+
+.WelcomeText {
+    margin-bottom: 300px;
+}
+
+.ContactPage .card-img-top {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.ContactPage .card img {
+    border-radius: 0 !important;
+}
