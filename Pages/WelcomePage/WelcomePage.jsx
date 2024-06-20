@@ -35,7 +35,7 @@ const WelcomePage = () => {
                                     🔗 GitHub Link
                                 </Button>
                             </Link>
-                            <Link>
+                            <Link to={'/about-me'}>
                                 <Button className='AboutMe'>
                                     ▷ About me
                                 </Button>

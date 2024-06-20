@@ -6,6 +6,7 @@ import './AppRoutes.css';
 import { Container } from "react-bootstrap";
 import ProjectsPage from "../Pages/ProjectsPage/ProjectsPage";
 import ItToolsPage from "../Pages/ItToolsPage/ItToolsPage";
+import ContactPage from "../Pages/ContactPage/ContactPage";
 
 const AppRoutes = () => {
     return (
@@ -15,7 +16,7 @@ const AppRoutes = () => {
                 <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/it-tools" element={<ItToolsPage />} />
                 <Route path="/about-me" element={<AboutMe />} />
-                <Route path="/contact" element={<AboutMe />} />
+                <Route path="/contact" element={<ContactPage />} />
                 {/* <Route path="/custom-map" element={<CustomMap />} /> */}
                 {/* <Route path="/*" element={<NotFoundPage />} /> */}
             </Routes>

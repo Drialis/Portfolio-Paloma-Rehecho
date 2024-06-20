@@ -1,47 +1,61 @@
 import { Card, Container, Row, Col, Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import React from 'react'
+import './AboutMe.css'
 
 const AboutMe = () => {
 
     return (
 
-        <Container fluid className='WelcomePage g-0'>
-            <Row>
-                <Col xs={12} md={6} lg={5} style={{ padding: 0 }}>
-                    <Card className='br-0'>
-                        <Card.Img
-                            className="Paloma Rehecho Antolín"
-                            src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1717432580/Paloma_mylwne.jpg"
-                        />
-                    </Card>
-                </Col>
-
-                <Col xs={12} md={6} lg={7}>
-                    <Card className='WelcomeText'>
+        <Container fluid className='AboutMePage g-0'>
+            <Row >
+                <Col xs={12} md={6} lg={6}>
+                    <Card className='AboutMeText'>
                         <Card.Body style={{ height: '400px' }}>
-                            <Card.Img variant='top' src='https://res.cloudinary.com/du8mlfcf9/image/upload/v1718808024/Presentaci%C3%B3n_diapositiva_Marca_creativa_Doodle_Blanco_y_marr%C3%B3n_gsapy7.png'></Card.Img>
-                            <Card.Title>Full Stack Developer</Card.Title>
-                            <br />
-                            <Card.Text className="fw-lighter">
-                                My development in the IT world continues evolving. After completing several courses on my own,
-                                I decided to further my studies by attending the Web Developer bootcamp at Ironhack.
-                                With the valuable skills gained during this training,
-                                I'm actively seeking opportunities to join the industry, as you can see in my repositories.
+                            <Card.Title className="AboutMeTitle">
+                                About Me
+                                <hr className="titlesub" />
+                            </Card.Title>
+                            <Card.Text className="fw-lighter aboutmeText" >
+                                <p>
+                                    After years of dedication to business consulting and with a passion for the technology sector,
+                                    I decided to embark on a journey into web development. Gradually, this industry has captivated me,
+                                    leading to my complete immersion today.
+                                </p>
+                                <br />
+                                <br />
+                                <p>
+                                    Upon completing my training at Ironhack, I've emerged from weeks of intensive MERN stack training,
+                                    ready to make a positive impact in the industry. I continue to develop projects and expand my knowledge of new technologies,
+                                    as showcased on the It Tools page.
+                                </p>
+                                <br />
+                                <br />
+                                <p>
+                                    I hope to continue adding exciting projects to this portfolio. If you'd like to connect with me,
+                                    please feel free to visit my contact page or my GitHub.
+                                </p>
                             </Card.Text>
-
                             <br />
                             <Link to="https://github.com/Drialis">
                                 <Button className="GitHubLink">
                                     🔗 GitHub Link
                                 </Button>
                             </Link>
-                            <Link>
-                                <Button className='AboutMe'>
-                                    ▷ About me
+                            <Link to={'/contact'}>
+                                <Button className='ContactButton'>
+                                    Contact
                                 </Button>
                             </Link>
                         </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={6} style={{ padding: 0 }}>
+                    <Card className='br-0'>
+                        <Card.Img
+                            className="PalomaRehechoAntolín m-0"
+                            src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718897590/IMG_1776_n7fbfz.jpg"
+                        />
                     </Card>
                 </Col>
             </Row>
