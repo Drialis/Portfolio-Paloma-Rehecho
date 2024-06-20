@@ -12,46 +12,68 @@
     color: #023047 !important;
 }
 
-.ProjectsRow .card .card-body {
+.ItToolsRow1 .card .card-body,
+.ItToolsRow2 .card .card-body,
+.ItToolsRow3 .card .card-body {
     background-color: #1F2020;
     color: FFFBEB;
     border-color: #1F2020;
 
 }
 
-.ProjectsRow .card .card-title {
+.ItToolsRow1 .card .card-title,
+.ItToolsRow3 .card .card-title {
     padding: 20px;
     border-bottom: 3px solid #00ffd5;
+    text-align: center;
 }
 
-.ProjectsRow .card .card-text {
+.ItToolsRow2 .card .card-title {
+    text-align: center;
+}
+
+.ItToolsRow1 .card .card-text,
+.ItToolsRow2 .card .card-text {
     padding: 20px;
     padding-left: 0px;
 }
 
-.ProjectsPage {
+.ItToolsRow3 .card .card-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.ItToolsPage {
     padding-right: 50px !important;
     padding-left: 20px !important;
 }
 
-.ProjectsRow .card {
+.ItToolsRow1 .card,
+.ItToolsRow2 .card,
+.ItToolsRow3 .card {
     background-color: #1F2020;
     color: #FFFBEB;
     border-color: #1F2020;
     margin-bottom: 50px;
 }
 
-.ProjectsRow .card-img-top {
+.ItToolsRow1 .card-img-top,
+.ItToolsRow2 .card-img-top {
     height: 300px;
-    border: 5px solid #FFFBEB;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
-.ProjectsPage .container-fluid {
+.ItToolsRow3 .card-img-top {
+    height: 200px;
+    object-fit: scale-down;
+    padding: 10px;
+}
+
+.ItToolsPage .container-fluid {
     padding-right: 50px !important;
 }
 
-.ProjectsPage h1 {
+.ItToolsPage h1 {
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
@@ -66,6 +88,6 @@
     border-top: 5px solid #00ffd5;
     height: 5px;
     opacity: 1;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 800px;
+    margin-right: 800px;
 }
