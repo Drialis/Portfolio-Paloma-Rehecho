@@ -11,7 +11,7 @@ const AboutMe = () => {
             <Row >
                 <Col xs={12} md={6} lg={6}>
                     <Card className='AboutMeText'>
-                        <Card.Body style={{ height: '400px' }}>
+                        <Card.Body >
                             <Card.Title className="AboutMeTitle">
                                 About Me
                                 <hr className="titlesub" />
