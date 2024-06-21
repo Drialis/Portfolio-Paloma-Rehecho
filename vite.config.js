@@ -7,11 +7,6 @@ export default defineConfig({
         extensions: ['.js', '.jsx']
     },
     optimizeDeps: {
-        include: ['react', 'react-dom']
+        include: ['react', 'react-dom', 'react-router-dom']
     },
-    server: {
-        mimeTypes: {
-            'text/jsx': ['jsx']
-        }
-    }
 });
