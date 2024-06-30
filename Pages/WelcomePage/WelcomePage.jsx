@@ -11,7 +11,7 @@ const WelcomePage = () => {
                     <Card className='br-0'>
                         <Card.Img
                             className="Paloma Rehecho Antolín"
-                            src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1717432580/Paloma_mylwne.jpg"
+                            src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1719767647/IMG_2136_uekmad.jpg"
                         />
                     </Card>
                 </Col>
