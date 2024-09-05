@@ -1,0 +1,37 @@
+{
+    "COMMONS":{
+
+    },
+    "NAVIGATION":{
+
+    },
+    "ABOUT_ME_PAGE":{
+        "TITLE": "About Me",
+        "PARAGRAPHS":{
+            "PARAGRAPH_1": "After years of dedication to business consulting and with a passion for the technology sector, I decided to embark on a journey into web development. Gradually, this industry has captivated me, leading to my complete immersion today.",
+            "PARAGRAPH_2": "Upon completing my training at Ironhack, I've emerged from weeks of intensive MERN stack training, ready to make a positive impact in the industry. I continue to develop projects and expand my knowledge of new technologies, as showcased on the It Tools page.",
+            "PARAGRAPH_3": "I hope to continue adding exciting projects to this portfolio. If you'd like to connect with me, please feel free to visit my contact page or my GitHub."
+        },
+        "BUTTON_LINK": "🔗 GitHub Link",
+        "BUTTON_CONTACT": "Contact"
+    },
+    "CONTACT_PAGE": {
+        "TITLE": "My Contact",
+        "PARAGRAPHS":{
+            "PARAGRAPH_1": " I'm always eager to connect with talented individuals and companies seeking a passionate and skilled MERN stack developer. Feel free to reach out if you have any questions about my experience or potential collaborations!",
+            "PARAGRAPH_2": " Also, if you're looking for a developer who thrives in a fast-paced environment and is eager to learn new technologies, I'd be happy to connect and discuss potential opportunities."
+        }
+    },
+    "IT_TOOLS_PAGE":{
+        "TITLE": "IT TOOLS",
+        "TOOLS": {
+            "MONGODB": {
+                "TITLE": "",
+                "PARAGRAPH": ""
+            },
+            "EXPRESS": {
+
+            }
+        }
+    }
+}

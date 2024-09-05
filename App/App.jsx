@@ -1,4 +1,4 @@
-import AppRoutes from './routes/AppRoutes';
+import AppRoutes from '../routes/AppRoutes';
 import Navigation from './Components/Navigation/Navigation';
 import Footer from './Components/Footer/Footer';
 import React from 'react';
