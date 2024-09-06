@@ -5,33 +5,98 @@
     "NAVIGATION":{
 
     },
-    "ABOUT_ME_PAGE":{
-        "TITLE": "About Me",
-        "PARAGRAPHS":{
-            "PARAGRAPH_1": "After years of dedication to business consulting and with a passion for the technology sector, I decided to embark on a journey into web development. Gradually, this industry has captivated me, leading to my complete immersion today.",
-            "PARAGRAPH_2": "Upon completing my training at Ironhack, I've emerged from weeks of intensive MERN stack training, ready to make a positive impact in the industry. I continue to develop projects and expand my knowledge of new technologies, as showcased on the It Tools page.",
-            "PARAGRAPH_3": "I hope to continue adding exciting projects to this portfolio. If you'd like to connect with me, please feel free to visit my contact page or my GitHub."
-        },
-        "BUTTON_LINK": "🔗 GitHub Link",
-        "BUTTON_CONTACT": "Contact"
+    "WELCOME_PAGE": {
+        "PARAGRAPHS": {
+            "PARAGRAPH_1": "My development in the IT world continues evolving. After completing several courses on my own, I decided to further my studies by attending the Web Developer bootcamp at Ironhack. With the valuable skills gained during this training, I'm actively seeking opportunities to join the industry, as you can see in my repositories."
+        }
     },
-    "CONTACT_PAGE": {
-        "TITLE": "My Contact",
-        "PARAGRAPHS":{
-            "PARAGRAPH_1": " I'm always eager to connect with talented individuals and companies seeking a passionate and skilled MERN stack developer. Feel free to reach out if you have any questions about my experience or potential collaborations!",
-            "PARAGRAPH_2": " Also, if you're looking for a developer who thrives in a fast-paced environment and is eager to learn new technologies, I'd be happy to connect and discuss potential opportunities."
+    "PROJECTS_PAGE":{
+        "TITLE": "My Projects",
+        "PROJECTS":{
+            "PROJECT_1": {
+                "TITLE": "Wave Scope",
+                "PARAGRAPH": "Your go-to platform for discovering wildlife on beaches around the world! Share your Experiences report your wildlife sightings and explore the ones made by the community. WaveScope is a single page application developed with stack MERN and powered by Netlifly."
+            },
+            "PROJECT_2":{
+                "TITLE": "Hack a Jet",
+                "PARAGRAPH": "Hack a Jet is a luxurious web experience built with React and JSON Server, highlighting elegant design and sophisticated web development techniques powered by Netlify. Featuring full CRUD functionality, each company can add, update, or delete its fleet independently."
+            },
+            "PROJECT_3":{
+                "TITLE": "Julita's Dungeon Game",
+                "PARAGRAPH": "Julita's Dungeon Game is a retro 80s-style turn-based board game rendered with JavaScript. Inspired by the classic role-playing games of the era. Experience thrilling adventures with a Dungeons and Dragons theme, bringing nostalgic gameplay to life."
+            }
+        },
+        "BUTTONS": {
+            "GITHUB_LINK": "🔗 GitHub Link",
+            "BUTTON_CONTACT": "Contact"
         }
     },
     "IT_TOOLS_PAGE":{
         "TITLE": "IT TOOLS",
         "TOOLS": {
             "MONGODB": {
-                "TITLE": "",
-                "PARAGRAPH": ""
+                "TITLE": "Mongo DB",
+                "PARAGRAPH": "Experienced in leveraging MongoDB to build dynamic and flexible applications. I have a strong grasp of data modeling and can optimize database performance for high-traffic environments."
             },
             "EXPRESS": {
-
+                "TITLE": "Express",
+                "PARAGRAPH": "I can develop robust and scalable web applications with Express. Proficient in routing, middleware, and error handling, I have a deep understanding of building RESTful APIs."
+            },
+            "REACT": {
+                "TITLE": "React",
+                "PARAGRAPH": "Experienced in building complex and scalable single-page applications using React. I have a strong understanding of React's component lifecycle and can optimize performance through techniques like memoization and lazy loading."
+            },
+            "NODEJS": {
+                "TITLE": "Node.js",
+                "PARAGRAPH": "Experienced in Node.js, I can build high-performance, scalable, and event-driven applications. Skilled in asynchronous programming and I/O operations, I have a deep understanding of the Node.js ecosystem."
+            },
+            "NESTJS": {
+                "TITLE": "NestJS",
+                "PARAGRAPH": "Using NestJS for backend projects is being a game-changer. Its modular architecture, powerful CLI, and TypeScript support make development efficient and scalable. It’s been incredibly effective for building robust, maintainable applications."
+            },
+            "TYPESCRIPT": {
+                "TITLE": "TypeScript",
+                "PARAGRAPH": "TypeScript has significantly improved my development process. Its static typing, modern JavaScript features, and strong tooling support enhance code quality and catch errors early. It’s become essential for building applications with confidence and precision."
+            },
+            "BOOTSTRAP": {
+                "TITLE": "Bootstrap",
+                "PARAGRAPH": "React Bootstrap"
+            },
+            "VUEJS": {
+                "TITLE": "Vue.js",
+                "PARAGRAPH": "Currently learning"
+            },
+            "FIGMA": {
+                "TITLE": "Figma",
+                "PARAGRAPH": "Improving skills with new projects in collaboration with designers"
+            },
+            ".NET": {
+                "TITLE": ".NET",
+                "PARAGRAPH": "Currently learning"
+            },
+            "ANGULAR": {
+                "TITLE": "Angular",
+                "PARAGRAPH": "My next project involves working with the MEAN stack"
             }
+        }
+    },
+    "ABOUT_ME_PAGE": {
+        "TITLE": "About Me",
+        "PARAGRAPHS":{
+            "PARAGRAPH_1": "After years of dedication to business consulting and with a passion for the technology sector, I decided to embark on a journey into web development. Gradually, this industry has captivated me, leading to my complete immersion today.",
+            "PARAGRAPH_2": "Upon completing my training at Ironhack, I've emerged from weeks of intensive MERN stack training, ready to make a positive impact in the industry. After a few months in the company LetMeCharge, I continue to develop projects and expand my knowledge of new technologies, as showcased on the It Tools page.",
+            "PARAGRAPH_3": "I hope to continue adding exciting projects to this portfolio. If you'd like to connect with me, please feel free to visit my contact page or my GitHub."
+        },
+        "BUTTONS":{
+            "GITHUB_LINK": "🔗 GitHub Link",
+            "BUTTON_CONTACT": "Contact"
+        }
+    },
+    "CONTACT_PAGE": {
+        "TITLE" : "My Contact",
+        "PARAGRAPHS" :{
+            "PARAGRAPH_1" : "I'm always eager to connect with talented individuals and companies seeking a passionate and skilled MERN stack developer. Feel free to reach out if you have any questions about my experience or potential collaborations!",
+            "PARAGRAPH_2" : "Also, if you're looking for a developer who thrives in a fast-paced environment and is eager to learn new technologies, I'd be happy to connect and discuss potential opportunities."
         }
     }
 }

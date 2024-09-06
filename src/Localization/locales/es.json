@@ -1,0 +1,101 @@
+{
+    "COMMONS":{
+
+    },
+    "NAVIGATION":{
+    },
+    "WELCOME_PAGE": {
+        "PARAGRAPHS": {
+            "PARAGRAPH_1": "My development in the IT world continues evolving. After completing several courses on my own, I decided to further my studies by attending the Web Developer bootcamp at Ironhack. With the valuable skills gained during this training, I'm actively seeking opportunities to join the industry, as you can see in my repositories."
+            }
+    },
+    "PROJECTS_PAGE":{
+        "TITLE": "Mis Proyectos",
+        "PROJECTS":{
+            "PROJECT_1": {
+                "TITLE": "Wave Scope",
+                "PARAGRAPH": "Tu plataforma preferida para descubrir vida salvaje en playas de todo el mundo. Comparte tus experiencias, reporta tus avistamientos de vida salvaje y explora los realizados por la comunidad. WaveScope es una 'single page application' desarrollada con stack MERN y respaldada por Netlify"
+            },
+            "PROJECT_2":{
+                "TITLE": "Hack a Jet",
+                "PARAGRAPH": "Hack a Jet es una exclusiva experiencia web construida con React y JSON Server, destacando un diseño elegante y sofisticadas técnicas de desarrollo web impulsadas por Netlify. Con funcionalidad CRUD completa, cada empresa puede agregar, actualizar o eliminar su flota de forma independiente"
+            },
+            "PROJECT_3":{
+                "TITLE": "Julita's Dungeon Game",
+                "PARAGRAPH": "El juego de rol de Julita es un juego con tablero por turnos de estilo retro u 80's renderizado con JavaScript. Inspirado en los clásicos juegos de rol de la época, vuelve a vivir aventuras en la mazmorra bajo la temática de Dungeons and Dragons."
+            }
+        },
+        "BUTTONS": {
+            "GITHUB_LINK": "🔗 Enlace a GitHub",
+            "BUTTON_CONTACT": "Contacto"
+        }
+    },
+    "IT_TOOLS_PAGE":{
+        "TITLE": "Herramientas tecnológicas",
+        "TOOLS": {
+            "MONGODB": {
+                "TITLE": "Mongo DB",
+                "PARAGRAPH": "Experiencia en el uso de MongoDB para construir aplicaciones dinámicas y flexibles. Destaco mi dominio de la arquitectura de datos y pundiendo optimizar el rendimiento de la base de datos para entornos de alto tráfico."
+            },
+            "EXPRESS": {
+                "TITLE": "Express",
+                "PARAGRAPH": "Desarrollo aplicaciones web robustas y escalables con Express. Experiencia en enrutamiento, middleware y manejo de errores, tengo conocimiento de la construcción de APIs RESTful"
+            },
+            "REACT": {
+                "TITLE": "React",
+                "PARAGRAPH": "Formada en la construcción de single page applications escalables utilizando React. Tengo conocimientos asentados del ciclo de vida de los componentes de React y puedo optimizar el rendimiento a través de técnicas como el 'lazy loading'."
+            },
+            "NODEJS": {
+                "TITLE": "Node.js",
+                "PARAGRAPH": "Especializada en aplicaciones de alto rendimiento, escalables y basadas en eventos. Entre mis habilidades se encuentra la programación asíncrona y operaciones de I/O, tengo un conocimiento alto del ecosistema de Node.js"
+            },
+            "NESTJS": {
+                "TITLE": "NestJS",
+                "PARAGRAPH": "La arquitectura de modular de JestJS, su potente CLI y su soporte para TypeScript hacen que el desarrollo sea eficiente y escalable y uno de mis favoritos."
+            },
+            "TYPESCRIPT": {
+                "TITLE": "TypeScript",
+                "PARAGRAPH": "TypeScript ha mejorado significativamente mi proceso de desarrollo. Su tipado estático mejora notablemente la calidad del código y detecta errores de manera eficaz. Se ha convertido en esencial para construir aplicaciones precisas y seguras."
+            },
+            "BOOTSTRAP": {
+                "TITLE": "Bootstrap",
+                "PARAGRAPH": "React Bootstrap"
+            },
+            "VUEJS": {
+                "TITLE": "Vue.js",
+                "PARAGRAPH": "En aprendizaje"
+            },
+            "FIGMA": {
+                "TITLE": "Figma",
+                "PARAGRAPH": "Actualmente estoy ampliando mis conocimientos gracias a las colaboraciones con otras diseñadoras."
+            },
+            ".NET": {
+                "TITLE": ".NET",
+                "PARAGRAPH": "En aprendizaje"
+            },
+            "ANGULAR": {
+                "TITLE": "Angular",
+                "PARAGRAPH": "Mi próximo proyecto estará basado en stack MEAN"
+            }
+        }
+    },
+    "ABOUT_ME_PAGE": {
+        "TITLE": "Sobre mí",
+        "PARAGRAPHS":{
+            "PARAGRAPH_1": "Después de años de experiencia en administración y gestión de la innovación descubrí que tenía un marcado interés por el sector tecnológico, así que decidí emprender mi viaje hacia el desarrollo web. Gradualmente, esta industria me ha cautivado, llevándome a una completa inmersión en la actualidad.",
+            "PARAGRAPH_2": "Una vez finalizada mi formación en Ironhack, he salido de semanas de intenso entrenamiento el stack MERN, y estoy totalmente preparada para continuar mi carrera en la industria. Despúes de unos meses realizando mis prácticas empresariales en LetMeCharge, continúo desarrollando proyectos y expandiendo mi conocimiento de nuevas tecnologías como se muestra en la página de 'Herramientas Tecnológicas'.",
+            "PARAGRAPH_3": "Espero seguir sumando proyectos interesantes a este portafolio. Si desean ponerse en contacto conmigo, no duden en visitar mi página de contacto o mi GitHub."
+        },
+        "BUTTONS":{
+            "GITHUB_LINK": "🔗 Enlace a GitHub",
+            "BUTTON_CONTACT": "Contacto"
+        }
+    },
+    "CONTACT_PAGE": {
+        "TITLE" : "Contacto",
+        "PARAGRAPHS" :{
+            "PARAGRAPH_1" : "Estoy entusiasmada por conectar con talentos y compañías que buscan desarrolladores apasionados por el stack MERN. No duden en contactarme si tienen alguna pregunta sobre mi experiencia o posibles colaboraciones",
+            "PARAGRAPH_2" : "Además, si están buscando un desarrollador que evolucione de forma ágil y tenga facilidad por aprender nuevas tecnologías, estaría encantada de contactar y valorar posibles oportunidades"
+        }
+    }
+}
