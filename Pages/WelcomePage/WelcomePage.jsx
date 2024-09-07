@@ -2,6 +2,9 @@ import React from 'react';
 import { Card, Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './WelcomePage.css';
+import { useTranslation } from 'react-i18next';
+
+const { t } = useTranslation
 
 const WelcomePage = () => {
     return (
@@ -23,11 +26,8 @@ const WelcomePage = () => {
                             <Card.Title>Full Stack Developer</Card.Title>
                             <br />
                             <Card.Text className="fw-lighter">
-                                {t("")}
-                                My development in the IT world continues evolving. After completing several courses on my own,
-                                I decided to further my studies by attending the Web Developer bootcamp at Ironhack.
-                                With the valuable skills gained during this training,
-                                I'm actively seeking opportunities to join the industry, as you can see in my repositories.
+                                {t("WELCOME_PAGE.PARAGRAPHS.PARAGRAPH_1")}
+
                             </Card.Text>
 
                             <br />
