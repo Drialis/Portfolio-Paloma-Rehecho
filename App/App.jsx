@@ -2,6 +2,7 @@ import AppRoutes from '../routes/AppRoutes';
 import Navigation from '../Components/Navigation/Navigation';
 import Footer from '../Components/Footer/Footer';
 import React from 'react';
+//import i18n from '../src/Localization/locales/i18n';
 import './App.css';
 import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

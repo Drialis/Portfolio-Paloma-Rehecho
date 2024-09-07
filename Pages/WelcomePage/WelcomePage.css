@@ -30,11 +30,6 @@
     --bs-border-width: 0px;
 }
 
-.WelcomeText {
-    margin-bottom: 300px;
-
-}
-
 .GitHubLink {
     text-decoration: none;
     color: #00ffd5;
@@ -68,7 +63,6 @@
     padding: 20px;
     padding-right: 30px;
     margin-right: 20px;
-
     border-radius: 0;
 }
 
