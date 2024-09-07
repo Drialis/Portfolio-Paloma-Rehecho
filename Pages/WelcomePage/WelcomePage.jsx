@@ -23,6 +23,7 @@ const WelcomePage = () => {
                             <Card.Title>Full Stack Developer</Card.Title>
                             <br />
                             <Card.Text className="fw-lighter">
+                                {t("")}
                                 My development in the IT world continues evolving. After completing several courses on my own,
                                 I decided to further my studies by attending the Web Developer bootcamp at Ironhack.
                                 With the valuable skills gained during this training,
