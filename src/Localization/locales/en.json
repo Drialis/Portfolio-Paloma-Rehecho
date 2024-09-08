@@ -3,7 +3,15 @@
 
     },
     "NAVIGATION":{
-
+        "PROJECTS_LINK": "Projects",
+        "IT_TOOLS_LINK": "IT Tools",
+        "ABOUT_ME_LINK": "About me",
+        "CONTACT_LINK": "Contact",
+        "LANGUAGES": {
+            "TITLE":"🌐 Language",
+            "LANGUAGE_EN": "English",
+            "LANGUAGE_ES": "Spanish"
+        }
     },
     "WELCOME_PAGE": {
         "PARAGRAPHS": {
@@ -89,7 +97,7 @@
         },
         "BUTTONS":{
             "GITHUB_LINK": "🔗 GitHub Link",
-            "BUTTON_CONTACT": "Contact"
+            "CONTACT_BUTTON": "Contact"
         }
     },
     "CONTACT_PAGE": {

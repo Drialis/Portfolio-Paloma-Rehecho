@@ -1,3 +1,11 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+
 .Navbar {
     background-color: #1F2020;
     color: white;
@@ -14,11 +22,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     margin-right: 10px;
+    opacity: 1 !important;
 }
 
 #basic-navbar-nav {
-    background-color: #1F2020;
-    opacity: 0.5;
+    background-color: rgba(31, 32, 32, 0.8);
     z-index: 9999;
     color: #1F2020;
 }
@@ -46,6 +54,11 @@
 
 .Navicon.navbar-toggler {
     border-color: #1F2020;
+
+}
+
+.navbar-toggler:focus{
+box-shadow: none !important;
 }
 
 .Navicon.navbar-toggler.collapsed {

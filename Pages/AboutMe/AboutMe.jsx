@@ -2,10 +2,12 @@ import { Card, Container, Row, Col, Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import React from 'react'
 import './AboutMe.css'
+import { useTranslation } from "react-i18next"
 
 const AboutMe = () => {
 
-    return (
+    const { t } = useTranslation()
+    return ( 
 
         <Container fluid className='AboutMePage g-0'>
             <Row >
@@ -13,38 +15,27 @@ const AboutMe = () => {
                     <Card className='AboutMeText'>
                         <Card.Body >
                             <Card.Title className="AboutMeTitle">
-                                About Me
+                                {t("ABOUT_ME_PAGE.TITLE")}
                                 <hr className="titlesub" />
                             </Card.Title>
                             <Card.Text className="fw-lighter aboutmeText" >
-                                <p>
-                                    After years of dedication to business consulting and with a passion for the technology sector,
-                                    I decided to embark on a journey into web development. Gradually, this industry has captivated me,
-                                    leading to my complete immersion today.
-                                </p>
-                                <br />
-                                <br />
-                                <p>
-                                    Upon completing my training at Ironhack, I've emerged from weeks of intensive MERN stack training,
-                                    ready to make a positive impact in the industry. I continue to develop projects and expand my knowledge of new technologies,
-                                    as showcased on the It Tools page.
-                                </p>
-                                <br />
-                                <br />
-                                <p>
-                                    I hope to continue adding exciting projects to this portfolio. If you'd like to connect with me,
-                                    please feel free to visit my contact page or my GitHub.
-                                </p>
+                            {t("ABOUT_ME_PAGE.PARAGRAPHS.PARAGRAPH_1")}
+                            <br />                             
+                            <br />
+                            {t("ABOUT_ME_PAGE.PARAGRAPHS.PARAGRAPH_2")}
+                            <br />
+                            <br />
+                            {t("ABOUT_ME_PAGE.PARAGRAPHS.PARAGRAPH_3")}                            
                             </Card.Text>
                             <br />
                             <Link to="https://github.com/Drialis">
                                 <Button className="GitHubLink">
-                                    🔗 GitHub Link
+                                    {t("ABOUT_ME_PAGE.BUTTONS.GITHUB_LINK")}
                                 </Button>
                             </Link>
                             <Link to={'/contact'}>
                                 <Button className='ContactButton'>
-                                    Contact
+                                    {t("ABOUT_ME_PAGE.BUTTONS.CONTACT_BUTTON")}
                                 </Button>
                             </Link>
                         </Card.Body>

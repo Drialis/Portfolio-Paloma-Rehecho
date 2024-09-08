@@ -1,8 +1,16 @@
 {
     "COMMONS":{
-
     },
     "NAVIGATION":{
+        "PROJECTS_LINK": "Proyectos",
+        "IT_TOOLS_LINK": "Herramientas tecnológicas",
+        "ABOUT_ME_LINK": "Sobre mí",
+        "CONTACT_LINK": "Contacto",
+                "LANGUAGES": {
+            "TITLE":"🌐 Language",
+            "LANGUAGE_EN": "English",
+            "LANGUAGE_ES": "Spanish"
+        }
     },
     "WELCOME_PAGE": {
         "PARAGRAPHS": {
@@ -88,7 +96,7 @@
         },
         "BUTTONS":{
             "GITHUB_LINK": "🔗 Enlace a GitHub",
-            "BUTTON_CONTACT": "Contacto"
+            "CONTACT_BUTTON": "Contacto"
         }
     },
     "CONTACT_PAGE": {

@@ -1,10 +1,15 @@
-import React, { useState } from 'react'
-import { Navbar, Nav, Container, Image } from 'react-bootstrap'
+import React, { useRef, useState } from 'react'
+import { Navbar, Nav, Container, Image, Button, Overlay, Dropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Navigation.css'
+import { useTranslation } from 'react-i18next';
 
 const Navigation = () => {
     const [expanded, setExpanded] = useState(false);
+    const { t, i18n } = useTranslation();
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    }
 
     return (
         <Navbar expand="lg" className="Navbar align-items-center" expanded={expanded}>
@@ -35,6 +40,15 @@ const Navigation = () => {
                         <Link to="/contact" className="nav-link" onClick={() => setExpanded(false)}>
                             Contact
                         </Link>
+                        <Dropdown >
+                            <Dropdown.Toggle className="nav-link">
+                            {t("NAVIGATION.LANGUAGES.TITLE")}
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu style={{backgroundColor: 'rgba(31, 32, 32, 0.5)'}}>
+                                <Dropdown.Item className='nav-link' onClick={() =>changeLanguage('en')}>{t("NAVIGATION.LANGUAGES.LANGUAGE_EN")}</Dropdown.Item>
+                                <Dropdown.Item className='nav-link' onClick={() => changeLanguage('es')}>{t("NAVIGATION.LANGUAGES.LANGUAGE_ES")}</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
