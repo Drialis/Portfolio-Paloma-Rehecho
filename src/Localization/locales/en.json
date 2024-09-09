@@ -1,6 +1,10 @@
 {
     "COMMONS":{
-
+        "BUTTONS":{
+            "GITHUB_LINK": "🔗 GitHub Link",
+            "CONTACT_BUTTON": "Contact",
+            "ABOUT_ME_BUTTON": "▷ About me"
+        }
     },
     "NAVIGATION":{
         "PROJECTS_LINK": "Projects",
@@ -23,18 +27,30 @@
         "PROJECTS":{
             "PROJECT_1": {
                 "TITLE": "Wave Scope",
-                "PARAGRAPH": "Your go-to platform for discovering wildlife on beaches around the world! Share your Experiences report your wildlife sightings and explore the ones made by the community. WaveScope is a single page application developed with stack MERN and powered by Netlifly."
+                "PARAGRAPH": "Your go-to platform for discovering wildlife on beaches around the world! Share your Experiences report your wildlife sightings and explore the ones made by the community. WaveScope is a single page application developed with stack MERN and powered by Netlifly.",
+                "BUTTONS": {
+                    "GO_PROJECT_BUTTON":"Go to Wave Scope App"
+                }
             },
             "PROJECT_2":{
                 "TITLE": "Hack a Jet",
-                "PARAGRAPH": "Hack a Jet is a luxurious web experience built with React and JSON Server, highlighting elegant design and sophisticated web development techniques powered by Netlify. Featuring full CRUD functionality, each company can add, update, or delete its fleet independently."
+                "PARAGRAPH": "Hack a Jet is a luxurious web experience built with React and JSON Server, highlighting elegant design and sophisticated web development techniques powered by Netlify. Featuring full CRUD functionality, each company can add, update, or delete its fleet independently.",
+                "BUTTONS": {
+                "GO_PROJECT_BUTTON":"Go to Hack a Jet"
+                }
             },
             "PROJECT_3":{
                 "TITLE": "Julita's Dungeon Game",
-                "PARAGRAPH": "Julita's Dungeon Game is a retro 80s-style turn-based board game rendered with JavaScript. Inspired by the classic role-playing games of the era. Experience thrilling adventures with a Dungeons and Dragons theme, bringing nostalgic gameplay to life."
+                "PARAGRAPH": "Julita's Dungeon Game is a retro 80s-style turn-based board game rendered with JavaScript. Inspired by the classic role-playing games of the era. Experience thrilling adventures with a Dungeons and Dragons theme, bringing nostalgic gameplay to life.",
+                "BUTTONS": {
+                    "GO_PROJECT_BUTTON":"Go to Julita's Dungeon"
+                }
             }
         },
         "BUTTONS": {
+            "CLIENT_REPO_BUTTON": "Client Repository",
+            "SERVER_REPO_BUTTON": "Server Repository",
+            "FULL_REPO_BUTTON": "Full Repository",
             "GITHUB_LINK": "🔗 GitHub Link",
             "BUTTON_CONTACT": "Contact"
         }
@@ -94,10 +110,6 @@
             "PARAGRAPH_1": "After years of dedication to business consulting and with a passion for the technology sector, I decided to embark on a journey into web development. Gradually, this industry has captivated me, leading to my complete immersion today.",
             "PARAGRAPH_2": "Upon completing my training at Ironhack, I've emerged from weeks of intensive MERN stack training, ready to make a positive impact in the industry. After a few months in the company LetMeCharge, I continue to develop projects and expand my knowledge of new technologies, as showcased on the It Tools page.",
             "PARAGRAPH_3": "I hope to continue adding exciting projects to this portfolio. If you'd like to connect with me, please feel free to visit my contact page or my GitHub."
-        },
-        "BUTTONS":{
-            "GITHUB_LINK": "🔗 GitHub Link",
-            "CONTACT_BUTTON": "Contact"
         }
     },
     "CONTACT_PAGE": {

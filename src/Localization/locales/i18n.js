@@ -1,5 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import LanguageDetector from 'i18next-browser-languagedetector'
 import en from "../locales/en.json";
 import es from "../locales/es.json";
 
@@ -27,7 +28,8 @@ const languageDetector = {
 };
 
 i18n
-  .use(languageDetector)
+ // .use(languageDetector)
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
@@ -36,6 +38,10 @@ i18n
     },
     es: {
       translation: es
+    },
+    detection: {
+      order: ['localStorage', 'cookie', 'navigator', 'htmlTag', 'path', 'subdomain'],
+      caches: ['localStorage', 'cookie']
     },
     lng: 'en', 
     fallbackLng: "en",

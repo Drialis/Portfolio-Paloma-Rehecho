@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Navbar, Nav, Container, Image, Button, Overlay, Dropdown } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import './Navigation.css'
 import { useTranslation } from 'react-i18next';
 
@@ -10,6 +10,14 @@ const Navigation = () => {
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
     }
+    const { lng } = useParams()
+
+    useEffect(() => {
+        if (lng){
+            i18n.changeLanguage(lng)
+        }
+    }, [lng, i18n])
+
 
     return (
         <Navbar expand="lg" className="Navbar align-items-center" expanded={expanded}>
@@ -29,16 +37,16 @@ const Navigation = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto fixed-right">
                         <Link to="/projects" className="nav-link" onClick={() => setExpanded(false)}>
-                            Projects
+                            {t("NAVIGATION.PROJECTS_LINK")}
                         </Link>
                         <Link to="/it-tools" className="nav-link" onClick={() => setExpanded(false)}>
-                            IT Tools
+                            {t("NAVIGATION.IT_TOOLS_LINK")}
                         </Link>
                         <Link to="/about-me" className="nav-link" onClick={() => setExpanded(false)}>
-                            About me
+                            {t("NAVIGATION.ABOUT_ME_LINK")}
                         </Link>
                         <Link to="/contact" className="nav-link" onClick={() => setExpanded(false)}>
-                            Contact
+                            {t("NAVIGATION.CONTACT_LINK")}
                         </Link>
                         <Dropdown >
                             <Dropdown.Toggle className="nav-link">

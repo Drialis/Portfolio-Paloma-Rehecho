@@ -1,12 +1,20 @@
 import { Card, Container, Row, Col, Button } from "react-bootstrap"
-import { Link } from "react-router-dom"
-import React from 'react'
+import { Link, useParams } from "react-router-dom"
+import React, { useEffect } from 'react'
 import './AboutMe.css'
 import { useTranslation } from "react-i18next"
 
 const AboutMe = () => {
 
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
+    const { lng } = useParams()
+
+    useEffect(() => {
+        if (lng && i18n.language !== lng){
+            i18n.changeLanguage(lng)
+        }
+    }, [lng, i18n])
+
     return ( 
 
         <Container fluid className='AboutMePage g-0'>
@@ -30,12 +38,12 @@ const AboutMe = () => {
                             <br />
                             <Link to="https://github.com/Drialis">
                                 <Button className="GitHubLink">
-                                    {t("ABOUT_ME_PAGE.BUTTONS.GITHUB_LINK")}
+                                    {t("COMMONS.BUTTONS.GITHUB_LINK")}
                                 </Button>
                             </Link>
                             <Link to={'/contact'}>
                                 <Button className='ContactButton'>
-                                    {t("ABOUT_ME_PAGE.BUTTONS.CONTACT_BUTTON")}
+                                    {t("COMMONS.BUTTONS.CONTACT_BUTTON")}
                                 </Button>
                             </Link>
                         </Card.Body>

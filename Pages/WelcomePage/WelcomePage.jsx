@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, Container, Row, Col, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './WelcomePage.css';
 import { useTranslation } from 'react-i18next';
 
 const WelcomePage = () => {
-    
-    const { t } = useTranslation()
+
+    const { t, i18n } = useTranslation()
+    const { lng } = useParams()
+
+    useEffect(() => {
+        if (lng){
+            i18n.changeLanguage(lng)
+        }
+    }, [lng, i18n])
 
     return (
         <Container fluid className='WelcomePage g-0'>
@@ -32,12 +39,12 @@ const WelcomePage = () => {
                             <br />
                             <Link to="https://github.com/Drialis">
                                 <Button className="GitHubLink">
-                                    🔗 GitHub Link
+                                    {t("COMMONS.BUTTONS.GITHUB_LINK")}
                                 </Button>
                             </Link>
                             <Link to={'/about-me'}>
                                 <Button className='AboutMe'>
-                                    ▷ About me
+                                    {t("COMMONS.BUTTONS.ABOUT_ME_BUTTON")}
                                 </Button>
                             </Link>
                         </Card.Body>

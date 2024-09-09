@@ -1,5 +1,10 @@
 {
     "COMMONS":{
+                "BUTTONS":{
+            "GITHUB_LINK": "🔗 Enlace a GitHub",
+            "CONTACT_BUTTON": "Contacto",
+            "ABOUT_ME_BUTTON": "▷ Sobre mí"
+        }
     },
     "NAVIGATION":{
         "PROJECTS_LINK": "Proyectos",
@@ -7,9 +12,9 @@
         "ABOUT_ME_LINK": "Sobre mí",
         "CONTACT_LINK": "Contacto",
                 "LANGUAGES": {
-            "TITLE":"🌐 Language",
-            "LANGUAGE_EN": "English",
-            "LANGUAGE_ES": "Spanish"
+            "TITLE":"🌐 Idioma",
+            "LANGUAGE_EN": "Inglés",
+            "LANGUAGE_ES": "Español"
         }
     },
     "WELCOME_PAGE": {
@@ -22,18 +27,30 @@
         "PROJECTS":{
             "PROJECT_1": {
                 "TITLE": "Wave Scope",
-                "PARAGRAPH": "Tu plataforma preferida para descubrir vida salvaje en playas de todo el mundo. Comparte tus experiencias, reporta tus avistamientos de vida salvaje y explora los realizados por la comunidad. WaveScope es una 'single page application' desarrollada con stack MERN y respaldada por Netlify"
+                "PARAGRAPH": "Tu plataforma preferida para descubrir vida salvaje en playas de todo el mundo. Comparte tus experiencias, reporta tus avistamientos de vida salvaje y explora los realizados por la comunidad. WaveScope es una 'single page application' desarrollada con stack MERN y respaldada por Netlify",
+                "BUTTONS": {
+                    "GO_PROJECT_BUTTON":"Enlace a Wave Scope App"
+                }
             },
             "PROJECT_2":{
                 "TITLE": "Hack a Jet",
-                "PARAGRAPH": "Hack a Jet es una exclusiva experiencia web construida con React y JSON Server, destacando un diseño elegante y sofisticadas técnicas de desarrollo web impulsadas por Netlify. Con funcionalidad CRUD completa, cada empresa puede agregar, actualizar o eliminar su flota de forma independiente"
+                "PARAGRAPH": "Hack a Jet es una exclusiva experiencia web construida con React y JSON Server, destacando un diseño elegante y sofisticadas técnicas de desarrollo web impulsadas por Netlify. Con funcionalidad CRUD completa, cada empresa puede agregar, actualizar o eliminar su flota de forma independiente",
+                "BUTTONS": {
+                    "GO_PROJECT_BUTTON":"Enlace a Hack a Jet"
+                }                
             },
             "PROJECT_3":{
                 "TITLE": "Julita's Dungeon Game",
-                "PARAGRAPH": "El juego de rol de Julita es un juego con tablero por turnos de estilo retro u 80's renderizado con JavaScript. Inspirado en los clásicos juegos de rol de la época, vuelve a vivir aventuras en la mazmorra bajo la temática de Dungeons and Dragons."
+                "PARAGRAPH": "El juego de rol de Julita es un juego con tablero por turnos de estilo retro u 80's renderizado con JavaScript. Inspirado en los clásicos juegos de rol de la época, vuelve a vivir aventuras en la mazmorra bajo la temática de Dungeons and Dragons.",
+                "BUTTONS": {
+                    "GO_PROJECT_BUTTON":"Enlace a Julita's Dungeon"
+                }            
             }
         },
         "BUTTONS": {
+            "CLIENT_REPO_BUTTON": "Repositorio del Cliente",
+            "SERVER_REPO_BUTTON": "Repositorio del Servidor",
+            "FULL_REPO_BUTTON": "Repositorio Completo",
             "GITHUB_LINK": "🔗 Enlace a GitHub",
             "BUTTON_CONTACT": "Contacto"
         }
@@ -93,10 +110,6 @@
             "PARAGRAPH_1": "Después de años de experiencia en administración y gestión de la innovación descubrí que tenía un marcado interés por el sector tecnológico, así que decidí emprender mi viaje hacia el desarrollo web. Gradualmente, esta industria me ha cautivado, llevándome a una completa inmersión en la actualidad.",
             "PARAGRAPH_2": "Una vez finalizada mi formación en Ironhack, he salido de semanas de intenso entrenamiento el stack MERN, y estoy totalmente preparada para continuar mi carrera en la industria. Despúes de unos meses realizando mis prácticas empresariales en LetMeCharge, continúo desarrollando proyectos y expandiendo mi conocimiento de nuevas tecnologías como se muestra en la página de 'Herramientas Tecnológicas'.",
             "PARAGRAPH_3": "Espero seguir sumando proyectos interesantes a este portafolio. Si desean ponerse en contacto conmigo, no duden en visitar mi página de contacto o mi GitHub."
-        },
-        "BUTTONS":{
-            "GITHUB_LINK": "🔗 Enlace a GitHub",
-            "CONTACT_BUTTON": "Contacto"
         }
     },
     "CONTACT_PAGE": {

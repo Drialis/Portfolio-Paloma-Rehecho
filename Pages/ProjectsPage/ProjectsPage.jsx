@@ -2,17 +2,18 @@ import React from "react"
 import { Row, Col, Card, Button, Container } from "react-bootstrap"
 import './ProjectsPage.css'
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const ProjectsPage = () => {
 
-
+    const {t} = useTranslation()
 
     return (
         <Container fluid className="ProjectsPage">
 
             <Row>
                 <Col>
-                    <h1>MY PROJECTS</h1>
+                    <h1>{t("PROJECTS_PAGE.TITLE")}</h1>
                     <hr className="titlesub" />
                 </Col>
             </Row>
@@ -25,20 +26,16 @@ const ProjectsPage = () => {
                         <Card.Body>
                             <Card.Title>Wave Scope</Card.Title>
                             <Card.Text>
-                                Your go-to platform for discovering wildlife on beaches around the world!
-                                Share your Experiences
-                                report your wildlife sightings and explore the ones made by the community.
-                                WaveScope is a single page application developed with stack MERN and powered
-                                by Netlifly.
+                            {t("PROJECTS_PAGE.PROJECTS.PROJECT_1.PARAGRAPH")}
                             </Card.Text>
                             <Link to={'https://wavescope.netlify.app/'}>
-                                <Button className="projectButton">Go to Wave Scope App</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.PROJECTS.PROJECT_1.BUTTONS.GO_PROJECT_BUTTON")}</Button>
                             </Link>
                             <Link to={'https://github.com/Drialis/Wave-Scope-client'}>
-                                <Button className="projectButton">Client Repository</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.BUTTONS.CLIENT_REPO_BUTTON")}</Button>
                             </Link>
                             <Link to={'https://github.com/Drialis/Wave-Scope-API'}>
-                                <Button className="projectButton">Server Repository</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.BUTTONS.SERVER_REPO_BUTTON")}</Button>
                             </Link>
                         </Card.Body>
                     </Card>
@@ -52,18 +49,16 @@ const ProjectsPage = () => {
                         <Card.Body>
                             <Card.Title>Hack a Jet</Card.Title>
                             <Card.Text>
-                                Hack a Jet is a luxurious web experience built with React and JSON Server,
-                                highlighting elegant design and sophisticated web development techniques powered by Netlify.
-                                Featuring full CRUD functionality, each company can add, update, or delete its fleet independently.
+                                {t("PROJECTS_PAGE.PROJECTS.PROJECT_2.PARAGRAPH")}
                             </Card.Text>
                             <Link to={'https://hackajet.netlify.app/'}>
-                                <Button className="projectButton">Go to Hack a Jet Web</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.PROJECTS.PROJECT_2.BUTTONS.GO_PROJECT_BUTTON")}</Button>
                             </Link>
                             <Link to={'https://github.com/Drialis/Hack-a-Jet-client'}>
-                                <Button className="projectButton">Client Repository</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.BUTTONS.CLIENT_REPO_BUTTON")}</Button>
                             </Link>
                             <Link to={'https://github.com/Drialis/Hack-a-Jet-server'}>
-                                <Button className="projectButton">Server Repository</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.BUTTONS.SERVER_REPO_BUTTON")}</Button>
                             </Link>
                         </Card.Body>
                     </Card>
@@ -77,15 +72,13 @@ const ProjectsPage = () => {
                         <Card.Body>
                             <Card.Title>Julita's Dungeon Game</Card.Title>
                             <Card.Text>
-                                Julita's Dungeon Game is a retro 80s-style
-                                turn-based board game rendered with JavaScript. Inspired by the classic role-playing games of the era.
-                                Experience thrilling adventures with a Dungeons and Dragons theme, bringing nostalgic gameplay to life.
+                                {t("PROJECTS_PAGE.PROJECTS.PROJECT_3.PARAGRAPH")}
                             </Card.Text>
                             <Link to={'https://drialis.github.io/julitas-dungeon-game/'}>
-                                <Button className="projectButton">Go to Julitas Dungeon</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.PROJECTS.PROJECT_3.BUTTONS.GO_PROJECT_BUTTON")}</Button>
                             </Link>
                             <Link to={'https://github.com/Drialis/julitas-dungeon-game'}>
-                                <Button className="projectButton">Full Repository</Button>
+                                <Button className="projectButton">{t("PROJECTS_PAGE.BUTTONS.FULL_REPO_BUTTON")}</Button>
                             </Link>
                         </Card.Body>
                     </Card>
