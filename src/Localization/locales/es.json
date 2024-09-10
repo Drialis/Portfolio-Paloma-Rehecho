@@ -56,15 +56,15 @@
         }
     },
     "IT_TOOLS_PAGE":{
-        "TITLE": "Herramientas tecnológicas",
+        "TITLE": "Herramientas Tecnológicas",
         "TOOLS": {
             "MONGODB": {
                 "TITLE": "Mongo DB",
-                "PARAGRAPH": "Experiencia en el uso de MongoDB para construir aplicaciones dinámicas y flexibles. Destaco mi dominio de la arquitectura de datos y pundiendo optimizar el rendimiento de la base de datos para entornos de alto tráfico."
+                "PARAGRAPH": "De mi experiencia en el uso de MongoDB para construir aplicaciones dinámicas y flexibles destaco mi dominio de la arquitectura de datos y la optimización del rendimiento de la bases datos para entornos de alto tráfico."
             },
             "EXPRESS": {
                 "TITLE": "Express",
-                "PARAGRAPH": "Desarrollo aplicaciones web robustas y escalables con Express. Experiencia en enrutamiento, middleware y manejo de errores, tengo conocimiento de la construcción de APIs RESTful"
+                "PARAGRAPH": "Desarrollo aplicaciones web robustas y escalables con Express. Con experiencia en enrutamiento, middleware y manejo de errores, tengo conocimiento de la construcción de APIs RESTful"
             },
             "REACT": {
                 "TITLE": "React",
@@ -80,7 +80,7 @@
             },
             "TYPESCRIPT": {
                 "TITLE": "TypeScript",
-                "PARAGRAPH": "TypeScript ha mejorado significativamente mi proceso de desarrollo. Su tipado estático mejora notablemente la calidad del código y detecta errores de manera eficaz. Se ha convertido en esencial para construir aplicaciones precisas y seguras."
+                "PARAGRAPH": "TypeScript ha mejorado significativamente mi proceso de desarrollo. Su tipado estático mejora notablemente la calidad de mi código y detecta errores de manera eficaz. "
             },
             "BOOTSTRAP": {
                 "TITLE": "Bootstrap",

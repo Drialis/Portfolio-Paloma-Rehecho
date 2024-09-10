@@ -60,11 +60,11 @@
         "TOOLS": {
             "MONGODB": {
                 "TITLE": "Mongo DB",
-                "PARAGRAPH": "Experienced in leveraging MongoDB to build dynamic and flexible applications. I have a strong grasp of data modeling and can optimize database performance for high-traffic environments."
+                "PARAGRAPH": "From my experience using MongoDB to build dynamic and flexible applications, I highlight my mastery of data architecture and database performance optimization for high-traffic environments."
             },
             "EXPRESS": {
                 "TITLE": "Express",
-                "PARAGRAPH": "I can develop robust and scalable web applications with Express. Proficient in routing, middleware, and error handling, I have a deep understanding of building RESTful APIs."
+                "PARAGRAPH": "I specialize in building robust and scalable web applications with Express.js. My technical expertise includes routing, middleware, and error handling, enabling me to create efficient RESTful APIs"
             },
             "REACT": {
                 "TITLE": "React",

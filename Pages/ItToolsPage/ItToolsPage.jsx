@@ -2,17 +2,18 @@ import React from "react"
 import { Row, Col, Card, Button, Container } from "react-bootstrap"
 import './ItToolsPage.css'
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const ItToolsPage = () => {
 
-
+const { t } = useTranslation()
 
     return (
         <Container fluid className="ItToolsPage">
 
             <Row>
                 <Col>
-                    <h1>IT TOOLS</h1>
+                    <h1>{t("IT_TOOLS_PAGE.TITLE")}</h1>
                     <hr className="titlesub" />
                 </Col>
             </Row>
@@ -22,10 +23,9 @@ const ItToolsPage = () => {
                     <Card >
                         <Card.Img className="Mongoimg" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718882764/pngwing.com_lvfscw.png" />
                         <Card.Body>
-                            <Card.Title>Mongo DB</Card.Title>
+                            <Card.Title>{t("IT_TOOLS_PAGE.TOOLS.MONGODB.TITLE")}</Card.Title>
                             <Card.Text>
-                                Experienced in leveraging MongoDB to build dynamic and flexible applications. 
-                                I have a strong grasp of data modeling and can optimize database performance for high-traffic environments.
+                               {t("IT_TOOLS_PAGE.TOOLS.MONGODB.PARAGRAPH")}
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -37,10 +37,9 @@ const ItToolsPage = () => {
                             <Card.Img variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718883374/pngwing.com_1_pbq7zq.png" />
                         </Link>
                         <Card.Body>
-                            <Card.Title>Express</Card.Title>
+                            <Card.Title>{t("IT_TOOLS_PAGE.TOOLS.EXPRESS.TITLE")}</Card.Title>
                             <Card.Text>
-                                 I can develop robust and scalable web applications with Express.
-                                 Proficient in routing, middleware, and error handling, I have a deep understanding of building RESTful APIs.
+                                {t("IT_TOOLS_PAGE.TOOLS.EXPRESS.PARAGRAPH")}
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -50,11 +49,9 @@ const ItToolsPage = () => {
                     <Card>
                         <Card.Img variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718883394/pngwing.com_3_aexztf.png" />
                         <Card.Body>
-                            <Card.Title>React</Card.Title>
+                            <Card.Title>{t("IT_TOOLS_PAGE.TOOLS.REACT.TITLE")}</Card.Title>
                             <Card.Text>
-                                Experienced in building complex and scalable single-page applications using React. 
-                                I have a strong understanding of React's component lifecycle and can optimize performance 
-                                through techniques like memoization and lazy loading.
+                                {t("IT_TOOLS_PAGE.TOOLS.REACT.PARAGRAPH")}
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -65,11 +62,9 @@ const ItToolsPage = () => {
                         <Card.Img variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718883418/pngwing.com_4_pbwxfg.png" />
 
                         <Card.Body>
-                            <Card.Title>Node.js</Card.Title>
+                            <Card.Title>{t("IT_TOOLS_PAGE.TOOLS.NODEJS.TITLE")}</Card.Title>
                             <Card.Text>
-                                Experienced in Node.js, I can build high-performance, scalable, 
-                                and event-driven applications. Skilled in asynchronous programming and I/O operations, 
-                                I have a deep understanding of the Node.js ecosystem.
+                                {t("IT_TOOLS_PAGE.TOOLS.NODEJS.PARAGRAPH")}
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -86,11 +81,9 @@ const ItToolsPage = () => {
                     <Card >
                         <Card.Img className="NestImg" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1725367455/pngwing.com_26_tbyp9f.png" />
                         <Card.Body>
-                            <Card.Title>NestJS</Card.Title>
+                            <Card.Title>{t("IT_TOOLS_PAGE.TOOLS.NESTJS.TITLE")}</Card.Title>
                             <Card.Text>
-                                Using NestJS for backend projects is being a game-changer. Its modular architecture, 
-                                powerful CLI, and TypeScript support make development efficient and scalable. 
-                                It’s been incredibly effective for building robust, maintainable applications.
+                                {t("IT_TOOLS_PAGE.TOOLS.NESTJS.PARAGRAPH")}
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -103,17 +96,14 @@ const ItToolsPage = () => {
                     <Card >
                         <Card.Img className="TypeScripImg" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718888405/pngwing.com_11_ttnkeo.png" />
                         <Card.Body>
-                            <Card.Title>TypeScript</Card.Title>
+                            <Card.Title>{t("IT_TOOLS_PAGE.TOOLS.TYPESCRIPT.TITLE")}</Card.Title>
                             <Card.Text>
-                                TypeScript has significantly improved my development process. Its static typing, modern JavaScript features, 
-                                and strong tooling support enhance code quality and catch errors early. 
-                                It’s become essential for building applications with confidence and precision.
+                                {t("IT_TOOLS_PAGE.TOOLS.TYPESCRIPT.PARAGRAPH")}
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
             </Row>
-
             <Row className="ItToolsRow2 pt-5">
                 <Col xs={12} md={4} lg={4}>
                     <Card >
