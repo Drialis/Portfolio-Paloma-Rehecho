@@ -6,14 +6,7 @@ import { useTranslation } from "react-i18next"
 
 const AboutMe = () => {
 
-    const { t, i18n } = useTranslation()
-    const { lng } = useParams()
-
-    useEffect(() => {
-        if (lng && i18n.language !== lng){
-            i18n.changeLanguage(lng)
-        }
-    }, [lng, i18n])
+    const { t } = useTranslation()
 
     return ( 
 

@@ -2,8 +2,11 @@ import { Container, Row, Col, Card } from "react-bootstrap"
 import React from "react"
 import './ContactPage.css'
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const ContactPage = () => {
+
+    const { t } = useTranslation()
 
     return (
         <Container fluid className="ContactPage">
@@ -14,14 +17,12 @@ const ContactPage = () => {
                 <Col xs={12} md={8} lg={8}>
                     <Card className='ContactPageCard'>
                         <Card.Body>
-                            <Card.Title> My Contact </Card.Title>
+                            <Card.Title> {t("CONTACT_PAGE.TITLE")} </Card.Title>
                             <Card.Text className="fw-lighter" >
-                                I'm always eager to connect with talented individuals and companies seeking a passionate and skilled MERN stack developer.
-                                Feel free to reach out if you have any questions about my experience or potential collaborations!
+                                {t("CONTACT_PAGE.PARAGRAPHS.PARAGRAPH_1")}
                             </Card.Text>
                             <Card.Text>
-                                Also, if you're looking for a developer who thrives in a fast-paced environment and is eager to learn new technologies,
-                                I'd be happy to connect and discuss potential opportunities.
+                                {t("CONTACT_PAGE.PARAGRAPHS.PARAGRAPH_2")}
                             </Card.Text>
 
                             <Row className="m-4">
