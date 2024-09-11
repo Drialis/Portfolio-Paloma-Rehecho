@@ -3,6 +3,7 @@ import React from "react"
 import './ContactPage.css'
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
+import CVpdf from '../../src/assets/cv.pdf'
 
 const ContactPage = () => {
 
@@ -74,8 +75,16 @@ const ContactPage = () => {
                                     xs={11} md={11} lg={11}>
                                     Las Palmas de Gran Canaria, Las Palmas, Spain
                                 </Col>
+                            </Row>                                    <Row className="m-4">
+                                <Col className="imgcontact"
+                                    xs={1} md={1} lg={1}>
+                                    <img src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718967769/pngwing.com_22_m6rkdm.png" alt="github" />
+                                </Col>
+                                <Col className="contactcol"
+                                    xs={11} md={11} lg={11}>
+                                    <a href={CVpdf} target="_blank"> ▷ Curriculum Vitae </a>
+                                </Col>
                             </Row>
-
 
                         </Card.Body>
                     </Card>

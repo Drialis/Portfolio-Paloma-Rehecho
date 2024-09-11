@@ -3,6 +3,7 @@ import { Card, Container, Row, Col, Button } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import './WelcomePage.css';
 import { useTranslation } from 'react-i18next';
+import CVpdf from '../../src/assets/cv.pdf'
 
 const WelcomePage = () => {
 
@@ -46,6 +47,11 @@ const WelcomePage = () => {
                                 <Button className='AboutMe'>
                                     {t("COMMONS.BUTTONS.ABOUT_ME_BUTTON")}
                                 </Button>
+                            </Link>
+                            <Link to={CVpdf} > 
+                            <Button className='AboutMe' style={{textDecoration:'none'}}>
+                            ▷ Curriculum Vitae
+                            </Button>
                             </Link>
                         </Card.Body>
                     </Card>
