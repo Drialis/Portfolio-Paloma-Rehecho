@@ -47,12 +47,10 @@ const WelcomePage = () => {
                                 <Button className='AboutMe'>
                                     {t("COMMONS.BUTTONS.ABOUT_ME_BUTTON")}
                                 </Button>
-                            </Link>
-                            <Link to={CVpdf} > 
-                            <Button className='AboutMe' style={{textDecoration:'none'}}>
-                            ▷ Curriculum Vitae
+                            </Link >
+                            <Button  className='AboutMe'>
+                            <a href={CVpdf} target="_blank" > ▷ Curriculum Vitae </a>
                             </Button>
-                            </Link>
                         </Card.Body>
                     </Card>
                 </Col>

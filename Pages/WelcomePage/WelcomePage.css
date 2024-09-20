@@ -72,3 +72,8 @@
     margin-bottom: 50px !important;
     width: 100vw !important;
 }
+
+button a{
+    color: white;
+    text-decoration: none;
+}
