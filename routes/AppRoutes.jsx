@@ -6,8 +6,7 @@ import './AppRoutes.css';
 import { Container } from "react-bootstrap";
 import ProjectsPage from "../Pages/ProjectsPage/ProjectsPage";
 import ItToolsPage from "../Pages/ItToolsPage/ItToolsPage";
-import ContactPage from "../Pages/ContactPage/ContactPage";
-import { useTranslation } from "react-i18next";
+import ContactPage from "../Pages/ContactPage/ContactPage";s
 
 const AppRoutes = () => {
 
