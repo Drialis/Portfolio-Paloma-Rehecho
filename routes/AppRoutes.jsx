@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import WelcomePage from "../Pages/WelcomePage/WelcomePage";
 import AboutMe from "../Pages/AboutMe/AboutMe";
 import React from 'react';
@@ -6,7 +6,7 @@ import './AppRoutes.css';
 import { Container } from "react-bootstrap";
 import ProjectsPage from "../Pages/ProjectsPage/ProjectsPage";
 import ItToolsPage from "../Pages/ItToolsPage/ItToolsPage";
-import ContactPage from "../Pages/ContactPage/ContactPage";s
+import ContactPage from "../Pages/ContactPage/ContactPage";
 
 const AppRoutes = () => {
 
