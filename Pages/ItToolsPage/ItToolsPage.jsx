@@ -74,9 +74,6 @@ const { t } = useTranslation()
 
 
             <Row className="ItToolsRow1 pt-5">
-                <Col xs={6} md={4} lg={2}>
-                
-                </Col>
                 <Col xs={6} md={4} lg={3}>
                     <Card >
                         <Card.Img className="NestImg" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1725367455/pngwing.com_26_tbyp9f.png" />
@@ -87,9 +84,6 @@ const { t } = useTranslation()
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                </Col>
-
-                <Col xs={6} md={4} lg={2}>
                 </Col>
 
                 <Col xs={6} md={4} lg={3}>
