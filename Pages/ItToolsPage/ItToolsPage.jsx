@@ -73,7 +73,7 @@ const { t } = useTranslation()
             </Row>
 
 
-            <Row className="ItToolsRow1 pt-5">
+            <Row className="ItToolsRow1 pt-5 d-flex justify-content-center">
                 <Col xs={6} md={4} lg={3}>
                     <Card >
                         <Card.Img className="NestImg" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1725367455/pngwing.com_26_tbyp9f.png" />
