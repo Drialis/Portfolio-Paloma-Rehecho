@@ -86,7 +86,7 @@ const { t } = useTranslation()
                     </Card>
                 </Col>
 
-                <Col xs={6} md={6} lg={6}>
+                <Col xs={6} md={4} lg={3}>
                     <Card >
                         <Card.Img className="TypeScripImg" variant="top" src="https://res.cloudinary.com/du8mlfcf9/image/upload/v1718888405/pngwing.com_11_ttnkeo.png" />
                         <Card.Body>
