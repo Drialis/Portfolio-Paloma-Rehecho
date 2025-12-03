@@ -3,7 +3,7 @@ import { Card, Container, Row, Col, Button } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import './WelcomePage.css';
 import { useTranslation } from 'react-i18next';
-import CVpdf from '../../src/assets/CV-Paloma-Rehecho.pdf'
+import CVpdf from '../../public/CV-Paloma-Rehecho.pdf'
 
 const WelcomePage = () => {
 

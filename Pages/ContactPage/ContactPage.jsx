@@ -3,7 +3,7 @@ import React from "react"
 import './ContactPage.css'
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import CVpdf from '../../src/assets/CV-Paloma-Rehecho.pdf'
+import CVpdf from '../../public/CV-Paloma-Rehecho.pdf'
 
 const ContactPage = () => {
 
