@@ -7,6 +7,7 @@ import { Container } from "react-bootstrap";
 import ProjectsPage from "../Pages/ProjectsPage/ProjectsPage";
 import ItToolsPage from "../Pages/ItToolsPage/ItToolsPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
+import NotFoundPage from "../Pages/NotFoundPage/NotFoundPage";
 
 const AppRoutes = () => {
 
@@ -24,7 +25,7 @@ const AppRoutes = () => {
                 <Route path="/contact" element={<ContactPage />} />     
                  {/*TODO: */}           
                 {/* <Route path="/custom-map" element={<CustomMap />} /> */}
-                {/* <Route path="/*" element={<NotFoundPage />} /> */}
+                <Route path="/*" element={<NotFoundPage/>} /> 
 
             </Routes>
         </Container>
