@@ -56,6 +56,10 @@
     border-radius: 0;
 }
 
+.WelcomePage .GitHubLink:hover {
+    background-color: #00ffd5 !important;
+}
+
 .WelcomePage .AboutMe {
     background-color: #1F2020 !important;
     color: #FFFBEB !important;
@@ -64,6 +68,14 @@
     padding-right: 30px;
     margin-right: 20px;
     border-radius: 0;
+}
+
+.WelcomePage .AboutMe:hover {
+color: #00ffd5 !important;
+}
+
+.WelcomePage .AboutMe:hover a{
+    color: #00ffd5 !important;
 }
 
 .WelcomePage .container-fluid {
