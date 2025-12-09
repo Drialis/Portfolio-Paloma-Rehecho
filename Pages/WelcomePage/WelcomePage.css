@@ -70,6 +70,10 @@
     border-radius: 0;
 }
 
+.WelcomePage .AboutMe a{
+    color: #FFFBEB !important;
+}
+
 .WelcomePage .AboutMe:hover {
 color: #00ffd5 !important;
 }
