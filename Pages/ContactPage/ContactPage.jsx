@@ -1,5 +1,4 @@
 import { Container, Row, Col, Card } from "react-bootstrap"
-import React from "react"
 import './ContactPage.css'
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"

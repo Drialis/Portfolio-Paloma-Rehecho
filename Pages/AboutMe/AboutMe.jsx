@@ -1,6 +1,5 @@
 import { Card, Container, Row, Col, Button } from "react-bootstrap"
-import { Link, useParams } from "react-router-dom"
-import React, { useEffect } from 'react'
+import { Link } from "react-router-dom"
 import './AboutMe.css'
 import { useTranslation } from "react-i18next"
 

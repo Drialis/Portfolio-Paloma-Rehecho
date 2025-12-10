@@ -1,4 +1,3 @@
-import React from "react"
 import { Row, Col, Card, Button, Container } from "react-bootstrap"
 import './ProjectsPage.css'
 import { Link } from "react-router-dom"

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Navbar, Nav, Container, Image, Button, Overlay, Dropdown } from 'react-bootstrap'
 import { Link, useParams } from 'react-router-dom'
 import './Navigation.css'

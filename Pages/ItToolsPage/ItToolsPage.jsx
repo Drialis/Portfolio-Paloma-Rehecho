@@ -1,5 +1,4 @@
-import React from "react"
-import { Row, Col, Card, Button, Container } from "react-bootstrap"
+import { Row, Col, Card, Container } from "react-bootstrap"
 import './ItToolsPage.css'
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
